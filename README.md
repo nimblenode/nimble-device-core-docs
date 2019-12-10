@@ -94,10 +94,10 @@ To send requests through the relay server provided by nimblenode.io, you'll need
 
   ```javascript
   {
-  	"key": {
-  			"keyid": "0abcf62784f21cbf18955bc551dbb315",
-  			"publickey": "-----BEGIN PUBLIC KEY----- MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMdkml0yZ6TLSWOmCUR0c8FBMa6FCaho N4TOGU+1tCSYKCTuZHlzB9MjWRo8Nw/1yblfOIpbEThRPCaKlcMDBQ8CAwEAAQ== -----END PUBLIC KEY-----"
-  	}
+     "key": {
+  	"keyid": "0abcf62784f21cbf18955bc551dbb315",
+  	"publickey": "-----BEGIN PUBLIC KEY----- MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMdkml0yZ6TLSWOmCUR0c8FBMa6FCaho N4TOGU+1tCSYKCTuZHlzB9MjWRo8Nw/1yblfOIpbEThRPCaKlcMDBQ8CAwEAAQ== -----END PUBLIC KEY-----"
+     }
   }
   ```
 
@@ -105,8 +105,8 @@ To send requests through the relay server provided by nimblenode.io, you'll need
 
   ```json
   {
-  			"keyid": "0abcf62784f21cbf18955bc551dbb315",
-  			"publickey": "your-new-public-key-here"
+    "keyid": "0abcf62784f21cbf18955bc551dbb315",
+    "publickey": "your-new-public-key-here"
   }
   ```
 
@@ -122,7 +122,7 @@ To send requests through the relay server provided by nimblenode.io, you'll need
 
   ```json
   {
-  	  "macaddress": "b2:37:eb:5e:c5:9e"
+    "macaddress": "b2:37:eb:5e:c5:9e"
   }
   ```
 
@@ -140,9 +140,9 @@ To send requests through the relay server provided by nimblenode.io, you'll need
 
   ```json
   {
-  	 "deviceid": "b2:37:eb:5e:c5:9e",
-  	 "command": "JSON string encrypted goes here",
-  	 "keyid": "61ba036fab9033f5f255cd089b1ba28c"	
+    "deviceid": "b2:37:eb:5e:c5:9e",
+    "command": "JSON string encrypted goes here",
+    "keyid": "61ba036fab9033f5f255cd089b1ba28c"	
   }
   ```
 
@@ -150,9 +150,9 @@ To send requests through the relay server provided by nimblenode.io, you'll need
 
   ```json
   {
-  			"deviceid": "b2:37:eb:5e:c5:9e",
-  			"command": "Id7aW+1NOG0Ism6aLVVFjUE1sEl3lJNy82VVfs7KxwKR3gjt7M8rfdwHNLhhLPVP00P2w1VWViqRei+E/PoJYkkdpN8FSwA72aUSb8Zxsr1x8inU9XMyXf/Vf/QSjjF68qxedOBjXNh1rpP+sFMV+E21Y+vlHzrHVPGNjd+GjgdWEIr1pxZEcQeTJqZKwaOXZNYu5ZWh3YOdtO0a3Datpje8h0qE9nnhhAtXBBOxxzYFs1Z3R6Hdsg2OhbtPW2+G",
-  			"keyid": "0abcf62784f21cbf18955bc551dbb315"
+    "deviceid": "b2:37:eb:5e:c5:9e",
+    "command": "Id7aW+1NOG0Ism6aLVVFjUE1sEl3lJNy82VVfs7KxwKR3gjt7M8rfdwHNLhhLPVP00P2w1VWViqRei+E/PoJYkkdpN8FSwA72aUSb8Zxsr1x8inU9XMyXf/Vf/QSjjF68qxedOBjXNh1rpP+sFMV+E21Y+vlHzrHVPGNjd+GjgdWEIr1pxZEcQeTJqZKwaOXZNYu5ZWh3YOdtO0a3Datpje8h0qE9nnhhAtXBBOxxzYFs1Z3R6Hdsg2OhbtPW2+G",
+    "keyid": "0abcf62784f21cbf18955bc551dbb315"
   }
   ```
 
@@ -170,12 +170,12 @@ To send requests through the relay server provided by nimblenode.io, you'll need
 
   ```json
   {
-    "commandid": "77acb2e4f903e717b1dab8a37a2d59a2",
-    "command": "encrypted-command-sent-here",
-    "commandresponse": "encrypted-response-here",
-    "keyid": "0abcf62784f21cbf18955bc551dbb315",
-    "added": 1575922212960,
-    "added_formatted": "Mon Dec 09 2019 20:10:12 GMT+0000 (UTC)"
+     "commandid": "77acb2e4f903e717b1dab8a37a2d59a2",
+     "command": "encrypted-command-sent-here",
+     "commandresponse": "encrypted-response-here",
+     "keyid": "0abcf62784f21cbf18955bc551dbb315",
+     "added": 1575922212960,
+     "added_formatted": "Mon Dec 09 2019 20:10:12 GMT+0000 (UTC)"
   }
   ```
 
@@ -187,9 +187,9 @@ To send requests through the relay server provided by nimblenode.io, you'll need
 
   ```json
   {
-  			"deviceid": "b2:37:eb:5e:c5:9e",
-  			"clicommand": "encrypted-command-here",
-  			"keyid": "0abcf62784f21cbf18955bc551dbb315"
+    "deviceid": "b2:37:eb:5e:c5:9e",
+    "clicommand": "encrypted-command-here",
+    "keyid": "0abcf62784f21cbf18955bc551dbb315"
   }
   ```
 
@@ -208,9 +208,9 @@ To send requests through the relay server provided by nimblenode.io, you'll need
 
   ```json 
   {
-  			"deviceid": "b2:37:eb:5e:c5:9e",
-  			"clicommand": "ibeWKMiAl7yUERIgLRB/frLFL1ZS0f4X5lvcqjDsotu2E5mB5S32DXv2iNVHxFy+RdbsGFV63VnmDDrYAdbxBkp7DXxhzTzllgfzQsVjxooJdKvfX8HBKO6HOyhXdrxQiByGXsRHnMUqMuKLIAhvd/75mR+DCfdGYxsKxlkoIDk=",
-  			"keyid": "0abcf62784f21cbf18955bc551dbb315"
+    "deviceid": "b2:37:eb:5e:c5:9e",
+    "clicommand": "ibeWKMiAl7yUERIgLRB/frLFL1ZS0f4X5lvcqjDsotu2E5mB5S32DXv2iNVHxFy+RdbsGFV63VnmDDrYAdbxBkp7DXxhzTzllgfzQsVjxooJdKvfX8HBKO6HOyhXdrxQiByGXsRHnMUqMuKLIAhvd/75mR+DCfdGYxsKxlkoIDk=",
+    "keyid": "0abcf62784f21cbf18955bc551dbb315"
   } 
   ```
 
@@ -252,13 +252,13 @@ Retrieves both public and private keys stored on the device along with their cor
 > {
 >   "keys": {
 >    	 "key-347879b5e992b06fd1bfeecb4477f87c-device": {
-> 			  "keyid": "347879b5e992b06fd1bfeecb4477f87c",
-> 			  "publickey": "-- public key here --",
-> 			  "privatekey": "-- private key here --"
+> 			 "keyid": "347879b5e992b06fd1bfeecb4477f87c",
+> 			 "publickey": "-- public key here --",
+> 			 "privatekey": "-- private key here --"
 > 	    },
 >    	 "key-347879b5e992b06fd1bfeecb4477f87c-remote": {
-> 			  "keyid": "347879b5e992b06fd1bfeecb4477f87c",
-> 			  "publickey": "-- public key here --"
+> 			 "keyid": "347879b5e992b06fd1bfeecb4477f87c",
+> 			 "publickey": "-- public key here --"
 > 	    }
 >   }
 > }
@@ -934,7 +934,7 @@ Generates a 12 word mnemonic phrase
 >
 > ```json 
 > {
-> 		"phrase": "measure price firm picture tattoo inmate hospital concert donate rifle fitness card"
+>   "phrase": "measure price firm picture tattoo inmate hospital concert donate rifle fitness card"
 > }
 > ```
 >
